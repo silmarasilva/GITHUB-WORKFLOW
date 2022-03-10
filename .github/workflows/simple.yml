@@ -6,13 +6,13 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps: 
-      - name: echo a string
+      - name: Echo a string
         run: echo "Hello World"
-      - name: multiline script
+      - name: Multiline script
         run: |
           node -v 
           npm -v
-      - name: python Command
+      - name: Python Command
         run: |
           import platform
           print(platform.processor())
